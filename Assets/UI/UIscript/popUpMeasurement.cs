@@ -7,7 +7,7 @@ using System.Net;
 
 public class popUpMeasurement : MonoBehaviour
 {
-
+    //Object in the simulator
     public GameObject popup;
     public GameObject tagname;
     public GameObject measurement1;
@@ -16,16 +16,19 @@ public class popUpMeasurement : MonoBehaviour
     public GameObject measurement4;
     public string phpURL;
     
+    //variables
     TextMeshProUGUI TagnameText;
     TextMeshProUGUI measurementText1;
     TextMeshProUGUI measurementText2;
     TextMeshProUGUI measurementText3;
     TextMeshProUGUI measurementText4;
+    public string measurements;
     private string url;
 
     // Start is called before the first frame update
     void Start()
     {
+        //sets up informasjon in component and fetches data from database
         popup.SetActive(false);
         TagnameText = tagname.GetComponent<TextMeshProUGUI>();
         measurementText1 = measurement1.GetComponent<TextMeshProUGUI>();
@@ -33,47 +36,21 @@ public class popUpMeasurement : MonoBehaviour
         measurementText3 = measurement3.GetComponent<TextMeshProUGUI>();
         measurementText4 = measurement4.GetComponent<TextMeshProUGUI>();
         url = phpURL + "?name=" + name + "&amount=1";
+        measurements = GetMeasurementFromDatabase();
+        
     }
 
     void OnTriggerEnter(Collider other)
     {
+        //sets up new varables with GetMeasurementByIndex function
         popup.SetActive(true);
         TagnameText.text = gameObject.name;
-        string measurements1 = GetMeasurementFromDatabase();
-        measurementText1.text = GetMeasurementByIndex(measurements1, 1);
-        string measurements2 = GetMeasurementFromDatabase();
-        measurementText2.text = GetMeasurementByIndex(measurements2, 2);
-        string measurements3 = GetMeasurementFromDatabase();
-        measurementText3.text = GetMeasurementByIndex(measurements3, 0);
-        string measurements4 = GetMeasurementFromDatabase();
-        measurementText4.text = GetMeasurementByIndex(measurements4, 0);
+        measurementText1.text = GetMeasurementByIndex(measurements, 1);
+        measurementText2.text = GetMeasurementByIndex(measurements, 2);
+        measurementText3.text = GetMeasurementByIndex(measurements, 0);
+        measurementText4.text = GetMeasurementByIndex(measurements, 0);
         
-        if(measurementText1.text == "1" && measurementText2.text == "1"){
-            measurementText4.text = "Generator på";
-        }
-        else if(measurementText1.text == "1" && measurementText2.text == "0"){
-            measurementText4.text = "Generator starter";
-        }
-        else if(measurementText1.text == "0" && measurementText2.text == "0"){
-            measurementText4.text = "Generator av";
-        }
-        else if(measurementText1.text == "0" && measurementText2.text == "1"){
-            measurementText4.text = "FEIL";
-        }
-
-        if(measurementText1.text == "1"){
-            measurementText1.text = "på";
-        }
-        else{
-            measurementText1.text = "av";
-        }
-        if(measurementText2.text == "1"){
-            measurementText2.text = "på";
-        }
-        else{
-            measurementText2.text = "av";
-
-        }
+        
         
     }
 
