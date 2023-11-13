@@ -2148,12 +2148,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910447787}
   m_CullTransparentMesh: 1
---- !u!1 &944493588 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4135013735270702863, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
-    type: 3}
-  m_PrefabInstance: {fileID: 5393215579111688471}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &970504538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4330,6 +4324,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5918188766681628548, guid: e23754f36243e6f499c35f24dc24f00a, type: 3}
+--- !u!1 &1682415933 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8762286023885395077, guid: 9c489a8547f4d9e4387da15a4ff82c81,
+    type: 3}
+  m_PrefabInstance: {fileID: 7288094137546172433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1682415936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682415933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 292a7d1bbfd942d4cb1961f41e8426a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCameraRoot1: {fileID: 8338988565591873055}
+  playerCameraRoot2: {fileID: 1946973791}
 --- !u!1 &1688066558 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3703642121376384858, guid: e23754f36243e6f499c35f24dc24f00a,
@@ -4686,6 +4700,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1243196009795319016, guid: e23754f36243e6f499c35f24dc24f00a, type: 3}
+--- !u!1 &1946973790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1946973791}
+  m_Layer: 0
+  m_Name: PlayerCameraRoot2
+  m_TagString: CinemachineTarget
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946973791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946973790}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: -0, y: 5, z: -10.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 135756641613574990}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!1 &1957310934
 GameObject:
   m_ObjectHideFlags: 0
@@ -5191,6 +5236,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 292a7d1bbfd942d4cb1961f41e8426a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCameraRoot1: {fileID: 0}
+  playerCameraRoot2: {fileID: 0}
+--- !u!4 &135756641613574990 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+    type: 3}
+  m_PrefabInstance: {fileID: 5393215579111688471}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2114283753834967212
 GameObject:
   m_ObjectHideFlags: 0
@@ -5374,6 +5427,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4135013735270702863, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerCameraRoot1
+      objectReference: {fileID: 0}
     - target: {fileID: 5393215578589016641, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -5551,15 +5609,3 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5393215579111688471}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8338988565591873056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944493588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 292a7d1bbfd942d4cb1961f41e8426a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
