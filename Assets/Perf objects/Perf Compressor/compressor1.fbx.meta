@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 513d667d4d956284eb9c8a2ce9493126
+guid: aebb26af3ff705e4196d321d9d10d911
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: compressor_
+    second: {fileID: 2800000, guid: ef784269df7b41949bd06e5202af4bd8, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
