@@ -851,7 +851,7 @@ GameObject:
   - component: {fileID: 61789181}
   - component: {fileID: 61789180}
   m_Layer: 5
-  m_Name: TextKvarValue1
+  m_Name: TextKvarValue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1060,7 +1060,7 @@ GameObject:
   - component: {fileID: 66211722}
   - component: {fileID: 66211721}
   m_Layer: 5
-  m_Name: TextFrequencyValue1
+  m_Name: TextFrequencyValue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1587,7 +1587,7 @@ GameObject:
   - component: {fileID: 143568497}
   - component: {fileID: 143568496}
   m_Layer: 5
-  m_Name: TextL3Value1
+  m_Name: TextL3Value2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1828,7 +1828,7 @@ GameObject:
   - component: {fileID: 157656857}
   - component: {fileID: 157656856}
   m_Layer: 5
-  m_Name: Text (TMP)4
+  m_Name: Text (TMP)4.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1874,7 +1874,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Volatge
+  m_text: 'Volatge:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2052,7 +2052,7 @@ GameObject:
   - component: {fileID: 164442024}
   - component: {fileID: 164442023}
   m_Layer: 5
-  m_Name: tagNameText1
+  m_Name: tagNameText1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3016,7 +3016,7 @@ GameObject:
   - component: {fileID: 345369148}
   - component: {fileID: 345369147}
   m_Layer: 5
-  m_Name: Text (TMP)9
+  m_Name: Text (TMP)9.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3399,15 +3399,26 @@ MonoBehaviour:
   - DG2-I-L3
   - DG2-LOAD
   - DG2-LOAD-KVAR
-  measurement1: {fileID: 2094432312}
-  measurement2: {fileID: 1991671040}
-  measurement3: {fileID: 66211719}
-  measurement4: {fileID: 1619170769}
-  measurement5: {fileID: 1544185536}
-  measurement6: {fileID: 428951183}
-  measurement7: {fileID: 143568494}
-  measurement8: {fileID: 669360631}
-  measurement9: {fileID: 61789178}
+  tagnameS1: {fileID: 1505351930}
+  tagnameS2: {fileID: 164442021}
+  measurement1: {fileID: 1308395734}
+  measurement2: {fileID: 290757784}
+  measurement3: {fileID: 1723875887}
+  measurement4: {fileID: 1635366172}
+  measurement5: {fileID: 212390520}
+  measurement6: {fileID: 978937667}
+  measurement7: {fileID: 296425208}
+  measurement8: {fileID: 2053423638}
+  measurement9: {fileID: 493699550}
+  measurement10: {fileID: 2094432312}
+  measurement11: {fileID: 1991671040}
+  measurement12: {fileID: 66211719}
+  measurement13: {fileID: 1619170769}
+  measurement14: {fileID: 1544185536}
+  measurement15: {fileID: 428951183}
+  measurement16: {fileID: 143568494}
+  measurement17: {fileID: 669360631}
+  measurement18: {fileID: 61789178}
   phpURL: http://192.168.38.100/get-tunglab-data-by-tagname.php
   measurements1: 
   measurements2: 
@@ -3418,6 +3429,17 @@ MonoBehaviour:
   measurements7: 
   measurements8: 
   measurements9: 
+  measurements10: 
+  measurements11: 
+  measurements12: 
+  measurements13: 
+  measurements14: 
+  measurements15: 
+  measurements16: 
+  measurements17: 
+  measurements18: 
+  TagnameWrite1: DG1
+  TagnameWrite2: DG2
 --- !u!1 &389175110 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3226370495800751607, guid: e23754f36243e6f499c35f24dc24f00a,
@@ -3551,7 +3573,7 @@ GameObject:
   - component: {fileID: 428951186}
   - component: {fileID: 428951185}
   m_Layer: 5
-  m_Name: TextL2Value1
+  m_Name: TextL2Value2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3976,7 +3998,7 @@ GameObject:
   - component: {fileID: 485290551}
   - component: {fileID: 485290550}
   m_Layer: 5
-  m_Name: Text (TMP)2
+  m_Name: Text (TMP)2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5105,7 +5127,7 @@ GameObject:
   - component: {fileID: 669360634}
   - component: {fileID: 669360633}
   m_Layer: 5
-  m_Name: TextWattValue1
+  m_Name: TextWattValue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5541,7 +5563,7 @@ GameObject:
   - component: {fileID: 758411269}
   - component: {fileID: 758411268}
   m_Layer: 5
-  m_Name: Text (TMP)1
+  m_Name: Text (TMP)1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8203,7 +8225,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Volatge
+  m_text: 'Volatge:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9471,7 +9493,7 @@ GameObject:
   - component: {fileID: 1324343510}
   - component: {fileID: 1324343509}
   m_Layer: 5
-  m_Name: Text (TMP)7
+  m_Name: Text (TMP)7.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10454,7 +10476,7 @@ GameObject:
   - component: {fileID: 1544185539}
   - component: {fileID: 1544185538}
   m_Layer: 5
-  m_Name: TextL1Value1
+  m_Name: TextL1Value2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10828,7 +10850,7 @@ GameObject:
   - component: {fileID: 1619170772}
   - component: {fileID: 1619170771}
   m_Layer: 5
-  m_Name: TextVolatgeValue1
+  m_Name: TextVolatgeValue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11987,7 +12009,7 @@ GameObject:
   - component: {fileID: 1766519858}
   - component: {fileID: 1766519857}
   m_Layer: 5
-  m_Name: Text (TMP)3
+  m_Name: Text (TMP)3.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12122,7 +12144,7 @@ GameObject:
   - component: {fileID: 1771428638}
   - component: {fileID: 1771428637}
   m_Layer: 5
-  m_Name: Text (TMP)8
+  m_Name: Text (TMP)8.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12855,7 +12877,7 @@ GameObject:
   - component: {fileID: 1963985005}
   - component: {fileID: 1963985004}
   m_Layer: 5
-  m_Name: Text (TMP)5
+  m_Name: Text (TMP)5.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13127,7 +13149,7 @@ GameObject:
   - component: {fileID: 1991671043}
   - component: {fileID: 1991671042}
   m_Layer: 5
-  m_Name: TextVelocityValue1
+  m_Name: TextVelocityValue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13861,7 +13883,7 @@ GameObject:
   - component: {fileID: 2057522587}
   - component: {fileID: 2057522586}
   m_Layer: 5
-  m_Name: Text (TMP)6
+  m_Name: Text (TMP)6.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14131,7 +14153,7 @@ GameObject:
   - component: {fileID: 2094432315}
   - component: {fileID: 2094432314}
   m_Layer: 5
-  m_Name: TextStatusValue1
+  m_Name: TextStatusValue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
