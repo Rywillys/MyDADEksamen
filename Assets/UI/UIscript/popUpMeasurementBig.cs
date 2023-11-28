@@ -178,14 +178,14 @@ public class popUpMeasurementBig : MonoBehaviour
             measurementText1.text = "STOPPED";
         };
 
-        measurementText2.text = GetMeasurementByIndex(measurements2, 1);
-        measurementText3.text = GetMeasurementByIndex(measurements3, 1);
-        measurementText4.text = GetMeasurementByIndex(measurements4, 1);
-        measurementText5.text = GetMeasurementByIndex(measurements5, 1);
-        measurementText6.text = GetMeasurementByIndex(measurements6, 1);
-        measurementText7.text = GetMeasurementByIndex(measurements7, 1);
-        measurementText8.text = GetMeasurementByIndex(measurements8, 1);
-        measurementText9.text = GetMeasurementByIndex(measurements9, 1);
+        measurementText2.text = GetMeasurementByIndex(measurements2, 1) + " RPM";
+        measurementText3.text = GetMeasurementByIndex(measurements3, 1) + " Hz";
+        measurementText4.text = GetMeasurementByIndex(measurements4, 1) + " V";
+        measurementText5.text = GetMeasurementByIndex(measurements5, 1) + "A";
+        measurementText6.text = GetMeasurementByIndex(measurements6, 1) + "A";
+        measurementText7.text = GetMeasurementByIndex(measurements7, 1) + "A";
+        measurementText8.text = GetMeasurementByIndex(measurements8, 1) + " kW";
+        measurementText9.text = GetMeasurementByIndex(measurements9, 1) + " kVAR";
 
         if (GetMeasurementByIndex(measurements10, 1) == "1"){
             measurementText10.text = "RUNNING";
@@ -194,14 +194,14 @@ public class popUpMeasurementBig : MonoBehaviour
             measurementText10.text = "STOPPED";
         };
 
-        measurementText11.text = GetMeasurementByIndex(measurements11, 1);
-        measurementText12.text = GetMeasurementByIndex(measurements12, 1);
-        measurementText13.text = GetMeasurementByIndex(measurements13, 1);
-        measurementText14.text = GetMeasurementByIndex(measurements14, 1);
-        measurementText15.text = GetMeasurementByIndex(measurements15, 1);
-        measurementText16.text = GetMeasurementByIndex(measurements16, 1);
-        measurementText17.text = GetMeasurementByIndex(measurements17, 1);
-        measurementText18.text = GetMeasurementByIndex(measurements18, 1);
+        measurementText11.text = GetMeasurementByIndex(measurements11, 1) + " RPM";
+        measurementText12.text = GetMeasurementByIndex(measurements12, 1) + " Hz";
+        measurementText13.text = GetMeasurementByIndex(measurements13, 1) + " V";
+        measurementText14.text = GetMeasurementByIndex(measurements14, 1) + "A";
+        measurementText15.text = GetMeasurementByIndex(measurements15, 1) + "A";
+        measurementText16.text = GetMeasurementByIndex(measurements16, 1) + "A";
+        measurementText17.text = GetMeasurementByIndex(measurements17, 1) + " kW";
+        measurementText18.text = GetMeasurementByIndex(measurements18, 1) + " kVAR";
     }
 
     private string GetMeasurementByIndex(string measurement, int index)
